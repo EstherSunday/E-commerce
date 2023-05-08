@@ -16,12 +16,11 @@ body{
 
 .about{
   background: url(./img/shoes1-removebg-preview.png) no-repeat;
-  background-size: 55%;
+  background-size: 40%;
   background-color: whitesmoke;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 20px;
   
- 
 }
 
 .inner-section{
@@ -30,39 +29,49 @@ body{
   background-color: #606060;
   padding: 120px;
   box-shadow: 12px 12px 8px rgba(0, 0, 0, .3);
-  
+ 
 }
 
 .inner-section h1{
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 900;
+  color: black;
+  text-align: center;
 }
 
 .text{
-  font-size: 13px;
+  font-size: 15px;
   color: white;
-  line-height: 30px;
+  line-height: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 50px; */
+ 
 }
 
-.stills button{
+
+
+/* .stills button{
   font-size: 22px;
   text-align: center;
   line-height: 2px;
   border: none;
-  padding: 8px;
+  padding: 20px;
   width: 200px;
-  background-color: whitesmoke;
-  color: black;
-  cursor: pointer
-}
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 9px;
+
+} */
+
+
+
 
 .stills button:hover{
   transition: 1s;
-  background-color: wheat;
-  color: white;
+  background-color: white;
+  color: black;
 }
 @media screen and (max-width: 120px) {
   .about{
