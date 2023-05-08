@@ -1,0 +1,189 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+width: 100%;
+height: 73px;
+line-height: 75px;
+padding: 0px 100px;
+position: fixed;
+background-color: #606060;
+z-index: 1000;
+}
+nav .logo p{
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  color: white;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+ 
+}
+
+nav ul{
+  float: right;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ nav li{
+ 
+  list-style: none;
+} 
+
+li a{
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: white;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  color: red;
+  transform: scale(1.9);
+}
+
+
+
+.container1{
+  
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: whitesmoke;
+ 
+  
+}
+
+
+.header1{
+
+  text-align: center;
+
+}
+
+
+.product1{
+  width: 100%;
+  height: 70%;
+ justify-content: center;
+ flex-wrap: wrap;
+ gap: 40px;
+ display: flex;
+padding: 1%;
+
+min-height: 40vh;
+bottom: 20%;
+padding-top: 9%;
+ 
+}
+
+.product1 img{
+  width: 90%;
+  height: 100%;
+
+}
+
+.product2{
+  position: relative;
+  background-color: lightgrey;
+  width: 240px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px 100px;
+  border-radius: 20px;
+  transition: .3s;
+  
+bottom: 30%;
+  
+}
+
+
+.product2:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.image1{
+  width: 90%; 
+   height: 60%;
+  display: grid;
+  place-items: center;
+
+}
+
+image1 image{
+  width: 120px;
+ 
+}
+
+.nameprice{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nameprice h3{
+  font-size: bold;
+  text-transform: capitalize;
+color: lightcoral;
+
+}
+
+.nameprice span{
+  font-size: 1.1em;
+}
+
+.product2 p{
+  font-size: 18px;
+  line-height: 30px;
+  margin: 1%;
+}
+
+.stars svg{
+  font-size: 1.3em;
+  color: yellow;
+ padding: 5%;
+}
+
+.bay{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.bay button{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #606060;
+  color: aliceblue;
+  font-size: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .5s;
+
+}
+
+.bay button:hover{
+transform: scale(1.1);
+}
+
+
+
+
+ 
+
+
