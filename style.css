@@ -388,6 +388,7 @@ height: 100px;
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  
 }
 
 .order1 {
@@ -395,6 +396,8 @@ height: 100px;
   text-align: center;
   border: 1px solid #ccc;
   padding: 1rem;
+
+
 }
 
 .order-title {
