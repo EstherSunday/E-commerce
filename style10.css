@@ -15,11 +15,12 @@ body{
 
 
 .about{
-  background: url() no-repeat;
+  background: url(./img/shoes1-removebg-preview.png) no-repeat;
   background-size: 55%;
   background-color: whitesmoke;
   overflow: hidden;
   padding: 100px 0;
+  
  
 }
 
@@ -27,7 +28,7 @@ body{
   width: 55%;
   float: right;
   background-color: #606060;
-  padding: 140px;
+  padding: 120px;
   box-shadow: 12px 12px 8px rgba(0, 0, 0, .3);
   
 }
@@ -40,7 +41,7 @@ body{
 
 .text{
   font-size: 13px;
-  color: black;
+  color: white;
   line-height: 30px;
   text-align: center;
   margin-bottom: 40px;
