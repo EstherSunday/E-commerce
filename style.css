@@ -515,7 +515,7 @@ image1 image{
 .nameprice h3{
   font-size: bold;
   text-transform: capitalize;
-color: lightcoral;
+color:black;
 
 }
 
@@ -529,7 +529,14 @@ color: lightcoral;
   margin: 1%;
 }
 
-.stars svg{
+#bx{
+  position: absolute;
+  top: 6%;
+  right: 10%;
+  color: #000;
+}
+
+.stars{
   font-size: 1.3em;
   color: yellow;
  padding: 5%;
