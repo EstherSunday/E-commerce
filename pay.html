@@ -4,9 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./style13.css">
+  <title>Payment</title>
 </head>
 <body>
+  <form action="action">
+      <h1>Payment</h1><br>
+      <label for="name">Payer Name</label><br>
+      <input class="box1" type="text" name="name" id="name" placeholder="Enter Name"><br>
+      
+      <label for="pemail">Email</label><br>
+      <input  class="box1"  type="email" name="email" id="email" placeholder="enter Email"><br>
+
+      <label for="cardnum">Card Number</label><br>
+      <input  class="box1"  type="number" name="number" id="number" placeholder="1234 1234 1234 1234"><br>
+
+      <div class="div1">
+      <label for="cerdex">Card expiry Month</label><br>
+      <input class="box2" type="month" name="month" id="month" placeholder="mm"><br>
+      </div>
+      
+      <div class="div1">
+        <label for="cardye">Card expiry year</label><br>
+        <input  class="box2"  type="year" name="year" id="year" placeholder="yyy"><br>
   
+      </div>
+      
+      <div class="div1">
+        <label for="cardcvv">CVV</label><br>
+      <input  class="box2"  type="cvc" name="cvc" id="CVC" placeholder="cvc">
+    </div><br>
+    
+      <button class="btn" type="button">Pay Now</button>
+      <button class="btn" type="button"><a href="./index.html">close</a></button>
+  </form>
 </body>
 </html>
